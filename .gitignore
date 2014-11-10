@@ -2,3 +2,4 @@ node_modules
 .peers
 .registry
 .edison-cli-time
+.DS_Store
