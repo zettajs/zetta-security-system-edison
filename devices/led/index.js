@@ -20,6 +20,7 @@ LED.prototype.init = function(config) {
     .map('turn-off', this.turnOff);
 
   this._led.dir(mraa.DIR_OUT);
+  this._led.write(0);
 };
 
 LED.prototype.turnOn = function(cb) {
